@@ -1,0 +1,147 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.body {
+    font-family: 'Nunito', sans-serif;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.body1 {
+    font-family: 'Nunito', sans-serif;
+    max-width: 1000px;
+    margin: auto;
+    background-color: black;
+    color: white;
+}
+
+.subHeader {
+
+    text-align: center;
+    border-bottom: 2px solid brown;
+    padding-bottom: 5px;
+}
+
+.button {
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px;
+    margin-right: 0px;
+}
+
+.list {
+    list-style-type: none;
+    font-weight: 700;
+    margin-top: 30px;
+
+
+}
+
+.listIteam {
+    margin: 10px;
+    outline: none;
+
+}
+
+.Section {
+    border-bottom: 2px solid brown;
+    line-height: 1.5;
+    padding: 100px;
+}
+
+.nav {
+    padding: 50px;
+    border-bottom: 2px solid brown;
+}
+
+.table {
+    border-collapse: collapse;
+    margin: 100px auto;
+    color: rgb(78, 78, 78)
+}
+
+.tableCell {
+    border: 1px solid rgb(177, 177, 233);
+    text-align: center;
+    padding: 10px;
+}
+
+.caption {
+    padding: 15px;
+    font-weight: 700;
+    border: 2px solid rgb(114, 179, 245);
+}
+
+.tableHeader {
+    background-color: rgb(210, 228, 241, 1);
+   
+}
+
+.tableRow:hover {
+    background: rgb(245, 243, 243);
+}
+
+.talbeH {
+    background-color: yellow;
+}
+
+.firstSection {
+    border-bottom: 2px solid brown;
+    overflow-x: auto;
+
+}
+
+.secondSection {
+    text-align: center;
+    margin-top: 100px;
+    padding-bottom: 100px;
+    border-bottom: 2px solid brown;
+}
+
+.Image {
+
+    border: 2px solid brown;
+    border-radius: 50%;
+    box-shadow: 3px 2px 10px 1px rgba(12, 20, 90, 1);
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+}
+
+.footer {
+    background-color: brown;
+    text-align: center;
+    color: white;
+    padding: 1px;
+}
+
+.text {
+    text-decoration: none;
+    color: red;
+}
+
+.link1 {
+    text-decoration: none;
+    color: rgb(78, 78, 78);
+}
+
+.link2 {
+    text-decoration: none;
+    color: white;
+}
+
+.link1:hover {
+    font-weight: 400;
+    text-shadow: 1px 1px 1px silver;
+}
+
+.article {
+    margin: 100px;
+}
